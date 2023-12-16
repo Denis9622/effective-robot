@@ -3,7 +3,7 @@ body {
   color: #2E2F42;/*цвет букаф*/
   background-color: #FFFFFF;/*цвет фона*/
   font-family: 'Roboto','Raleway', sans-serif;
-  font-weight: normal; /*font-weight встановлює товщину шрифта.*/
+  font-weight: 400; /*font-weight встановлює товщину шрифта.*/
   font-size: 16px;
   line-height: 1.5;/*line-height рівномірне масштабування інтервалу між рядками при зміні розміру тексту, тут множитель */
   letter-spacing: 2%;/*letter-spacing визначає інтервал між символами в межах елемента.*/
@@ -89,7 +89,8 @@ address .link{
   /*letter-spacing визначає інтервал між символами в межах елемента.*/
   line-height: 1,5;
   /*line-height рівномірне масштабування інтервалу між рядками при зміні розміру тексту, тут множитель */
-  font-weight: medium;
+  font-weight: 500;
+  cursor: pointer;
   /*font-weight встановлює товщину шрифта.*/
 }
 .button:hover {
